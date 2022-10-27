@@ -10,7 +10,6 @@ function App() {
       <div>
         <MainNav />
       </div>
-      main comp
       <Routes>
         <Route path='/' element={<Home />} />
       </Routes>

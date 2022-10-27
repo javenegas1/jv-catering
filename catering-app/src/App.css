@@ -1,5 +1,26 @@
 .introduction{
-    background-color: aqua;
+    /* background-color: aqua; */
     display: flex;
     justify-content: space-between;
+    margin-right: 80px;
+    padding-top: 30px;
+}
+.intro-left{
+    padding-right: 200px;
+    border-right: 1px solid black;
+}
+.intro-left h1{
+    text-align: center;
+}
+#phrase-card{
+    background-color: rgba(150, 150, 150, 0.5);
+    margin-left: -4px;
+    margin-top: 5vh;
+}
+.intro-list{
+    list-style: none;
+    padding-top: 7vh;
+}
+.intro-list li{
+    padding-top: 5px;
 }

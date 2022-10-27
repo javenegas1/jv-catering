@@ -6,9 +6,16 @@ export default function Home() {
   return (
     <div>
         <div className='introduction' >
-            <div>
-                <h1>Gourmet Cooking</h1>
-                <p>ipsum</p>
+            <div className='intro-left'>
+                <h1>JV Catering Services</h1>
+                <Card id='phrase-card' body>Fresh Food, Friendly Catering</Card>
+                <ul className='intro-list'>
+                    <li>Pricing is negotiable with a starting minimum of $10.99/person</li>
+                    <li>Max delivery distance of 50 miles from edges of Duluth, GA</li>
+                    <li>Available for on-site services as well</li>
+                    <li>Menu is freeform, please reach out to discuss how you want to design yours</li>
+                    <li><b>Most importantly, please let us know of any dietary restrictions or allergies you expect</b></li>
+                </ul>
             </div>
 
     <Card style={{ width: '20rem' }}>
