@@ -1,12 +1,12 @@
 import './App.css';
 import { Routes, Route, Outlet } from 'react-router-dom'
 
-import Navbar from './components/Navbar'
+import MainNav from './components/MainNav'
 
 function App() {
   return (
     <div className="App">
-      <Navbar />
+      <MainNav />
       main comp
     </div>
   );
