@@ -29,7 +29,7 @@ export default function Home() {
       <ListGroup className="list-group-flush">
         <ListGroup.Item>A la Carte Catering</ListGroup.Item>
         <ListGroup.Item>Meal Delivery to you</ListGroup.Item>
-        <ListGroup.Item>Pricing is negotiable</ListGroup.Item>
+        <ListGroup.Item>Call me: <a href="tel:404-583-1053">404-583-1053</a></ListGroup.Item>
       </ListGroup>
       <Card.Body>
         <Card.Link href="mailto:juanjove31@yahoo.com">Send me an email to find out more!</Card.Link>
