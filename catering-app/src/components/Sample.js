@@ -87,20 +87,13 @@ export default function Sample() {
         <hr></hr>
 
         <Card>
-      <Card.Header as="h5">By the Order</Card.Header>
+      <Card.Header as="h5">By the Order - Order in bulk</Card.Header>
       <Card.Body>
-        <Card.Title>Classic Steak</Card.Title>
+        <Card.Title>Croissant Sandwiches</Card.Title>
         <Card.Text>
-          Steak cooked to order with side of steamed vegetables and garlic mashed potatoes
+          Your choice of meat, with lettuce, tomato, cheese, and condiments
         </Card.Text>
-        <Card.Title>Honey Pecan Chicken</Card.Title>
-        <Card.Text>
-          Chicken breast glazed with honey and pecans accompanied with potato wedges and side of italian medley of vegetables
-        </Card.Text>
-        <Card.Title>Honey Pecan Chicken</Card.Title>
-        <Card.Text>
-          Chicken breast glazed with honey and pecans accompanied with potato wedges and side of italian medley of vegetables
-        </Card.Text>
+
         {/* <Button variant="primary">Go somewhere</Button> */}
       </Card.Body>
         </Card>
