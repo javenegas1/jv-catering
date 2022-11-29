@@ -70,7 +70,13 @@ export default function Sample() {
         </Card.Text>
         <Card.Title>Additional Sides</Card.Title>
         <Card.Text>
-          Chicken Salad, Broccoli Salad, or Egg Salad
+          Chicken Salad
+        </Card.Text>
+        <Card.Text>
+          Broccoli Salad
+        </Card.Text>
+        <Card.Text>
+          Egg Salad
         </Card.Text>
         <Card.Text>
           Fruit Medley
@@ -91,12 +97,24 @@ export default function Sample() {
       <Card.Body>
         <Card.Title>Croissant Sandwiches</Card.Title>
         <Card.Text>
-          Your choice of meat, with lettuce, tomato, cheese, and condiments
+          Your choice of meat, with lettuce, tomato, cheese, and mayo
+        </Card.Text>
+        <Card.Title>Cookout</Card.Title>
+        <Card.Text>
+          Hamburgers and Hot Dogs served with chips or side of agreed on choice
+        </Card.Text>
+        <Card.Title>Dessert Tray</Card.Title>
+        <Card.Text>
+          Assortment of cookies, brownies, and pound cake
         </Card.Text>
 
         {/* <Button variant="primary">Go somewhere</Button> */}
       </Card.Body>
         </Card>
+
+        <div>
+          <h3>Menus are to serve as an example or base for ideas. Please feel free to contact me directly to discuss creating personal menu for your event!</h3>
+        </div>
     </div>
   )
 }
