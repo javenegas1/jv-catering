@@ -5,6 +5,7 @@ export default function Calendar() {
     <div>
       <div>
         <h3>Please feel free to see my upcoming events or contact me directly to work on scheduling yours!</h3>
+        <h3>Please email me directly regarding requests on holidays at <a href="mailto:juanjove31@yahoo.com">juanjove31@yahoo.com</a> </h3>
       </div>
 
       <div>
