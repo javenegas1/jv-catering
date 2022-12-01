@@ -6,11 +6,11 @@ import Card from 'react-bootstrap/Card';
 export default function Sample() {
   return (
     <div>
-        <h1>Sample Menus</h1>
-        <p>Unsure about what you want to serve at your event? Check out these sample menus for some inspiration!</p>
+        <h1 className='menu-title'>Sample Menus</h1>
+        <p className='menu-title'>Unsure about what you want to serve at your event? Check out these sample menus for some inspiration!</p>
 
         <Card className='menu'>
-      <Card.Header as="h4">Breakfast Menu</Card.Header>
+      <Card.Header as="h4">Breakfast Menu <span className='menu-pricing'>Plates start at $10.99/person</span></Card.Header>
       <Card.Body>
         <Card.Title>American Classic</Card.Title>
         <Card.Text>
@@ -31,7 +31,7 @@ export default function Sample() {
         <hr></hr>
 
         <Card className='menu'>
-      <Card.Header as="h4">Lunch/Dinner Menu</Card.Header>
+      <Card.Header as="h4">Lunch/Dinner Menu <span className='menu-pricing'>Plates start at $11.99/person</span></Card.Header>
       <Card.Body>
       <Card.Title>Classic Steak</Card.Title>
         <Card.Text>
@@ -52,7 +52,7 @@ export default function Sample() {
         <hr></hr>
 
         <Card className='menu'>
-      <Card.Header as="h4">Buffet-Style Menu</Card.Header>
+      <Card.Header as="h4">Buffet-Style Menu <span className='menu-pricing'>Pricing starts at $11.99/person</span></Card.Header>
       <Card.Body>
         <Card.Title>Main Entree</Card.Title>
         <Card.Text>
@@ -93,7 +93,7 @@ export default function Sample() {
         <hr></hr>
 
         <Card className='menu'>
-      <Card.Header as="h4">By the Order - Order in bulk</Card.Header>
+      <Card.Header as="h4">By the Order <span className='menu-pricing'>Order what you need</span></Card.Header>
       <Card.Body>
         <Card.Title>Croissant Sandwiches</Card.Title>
         <Card.Text>
