@@ -9,8 +9,8 @@ export default function Sample() {
         <h1>Sample Menus</h1>
         <p>Unsure about what you want to serve at your event? Check out these sample menus for some inspiration!</p>
 
-        <Card>
-      <Card.Header as="h5">Breakfast Menu</Card.Header>
+        <Card className='menu'>
+      <Card.Header as="h4">Breakfast Menu</Card.Header>
       <Card.Body>
         <Card.Title>American Classic</Card.Title>
         <Card.Text>
@@ -30,8 +30,8 @@ export default function Sample() {
 
         <hr></hr>
 
-        <Card>
-      <Card.Header as="h5">Lunch/Dinner Menu</Card.Header>
+        <Card className='menu'>
+      <Card.Header as="h4">Lunch/Dinner Menu</Card.Header>
       <Card.Body>
       <Card.Title>Classic Steak</Card.Title>
         <Card.Text>
@@ -51,8 +51,8 @@ export default function Sample() {
 
         <hr></hr>
 
-        <Card>
-      <Card.Header as="h5">Buffet-Style Menu</Card.Header>
+        <Card className='menu'>
+      <Card.Header as="h4">Buffet-Style Menu</Card.Header>
       <Card.Body>
         <Card.Title>Main Entree</Card.Title>
         <Card.Text>
@@ -92,8 +92,8 @@ export default function Sample() {
 
         <hr></hr>
 
-        <Card>
-      <Card.Header as="h5">By the Order - Order in bulk</Card.Header>
+        <Card className='menu'>
+      <Card.Header as="h4">By the Order - Order in bulk</Card.Header>
       <Card.Body>
         <Card.Title>Croissant Sandwiches</Card.Title>
         <Card.Text>
@@ -112,7 +112,7 @@ export default function Sample() {
       </Card.Body>
         </Card>
 
-        <div>
+        <div className='menu-subcontent'>
           <h3>Menus are to serve as an example or base for ideas. Please feel free to contact me directly to discuss creating personal menu for your event!</h3>
         </div>
     </div>
