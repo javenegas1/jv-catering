@@ -16,7 +16,7 @@ export default function Sample() {
         <Card.Text>
           Two eggs cooked to order, biscuits with gravy, hashbrowns, and two strips of bacon
         </Card.Text>
-        <Card.Title>Sweet Tooth Breakfast</Card.Title>
+        <Card.Title>Pancake Breakfast</Card.Title>
         <Card.Text>
           Two pancakes served with butter and maple syrup. Served alongside two scrambled eggs and two strips of bacon
         </Card.Text>
@@ -41,9 +41,9 @@ export default function Sample() {
         <Card.Text>
           Chicken breast glazed with honey and pecans accompanied with potato wedges and side of italian medley of vegetables
         </Card.Text>
-        <Card.Title>Pork with Gravy</Card.Title>
+        <Card.Title>Pork Tenderloin with Gravy</Card.Title>
         <Card.Text>
-          Pork covered in gravy (secret recipe), served with bed of rice and broccoli
+          Pork tenderloin covered in gravy (secret recipe), served with bed of rice and broccoli
         </Card.Text>
         {/* <Button variant="primary">Go somewhere</Button> */}
       </Card.Body>
